@@ -159,9 +159,9 @@ demoCoin.createTransaction(
 console.log("\nMining a block");
 demoCoin.mineCurrentBlock("wallet-Miner49r");
 
-console.log("nBalance: Alice: ", +demoCoin.getAddressBalance("wallet-Alice"));
-console.log("nBalance: Bob: ", +demoCoin.getAddressBalance("wallet-Bob"));
+console.log("\nBalance: Alice: ", +demoCoin.getAddressBalance("wallet-Alice"));
+console.log("\nBalance: Bob: ", +demoCoin.getAddressBalance("wallet-Bob"));
 console.log(
-  "nBalance: Miner49r: ",
+  "\nBalance: Miner49r: ",
   +demoCoin.getAddressBalance("wallet-Miner49r")
 );
